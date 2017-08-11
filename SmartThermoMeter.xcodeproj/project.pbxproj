@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BF3F6D4E3E8B3FF445B4AF /* libPods-SmartThermoMeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA96E74C457F850373E2E964 /* libPods-SmartThermoMeter.a */; };
+		2CCE939E0BEE2891FE08146D /* libPods-SmartThermoMeterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F32CA18106737E82369FDA37 /* libPods-SmartThermoMeterTests.a */; };
+		3551A54B1F3CE71700526916 /* customViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3551A5491F3CE71700526916 /* customViewWindow.m */; };
+		3551A54C1F3CE71700526916 /* customViewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3551A54A1F3CE71700526916 /* customViewWindow.xib */; };
+		359328AF1B29B5B0009C80D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 359328AE1B29B5B0009C80D0 /* AppDelegate.m */; };
+		359328B11B29B5B0009C80D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359328B01B29B5B0009C80D0 /* main.m */; };
+		359328B31B29B5B0009C80D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359328B21B29B5B0009C80D0 /* Images.xcassets */; };
+		359328B61B29B5B0009C80D0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 359328B41B29B5B0009C80D0 /* MainMenu.xib */; };
+		359328C21B29B5B0009C80D0 /* SmartThermoMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 359328C11B29B5B0009C80D0 /* SmartThermoMeterTests.m */; };
+		359328CD1B29B60C009C80D0 /* usbhid.m in Sources */ = {isa = PBXBuildFile; fileRef = 359328CC1B29B60C009C80D0 /* usbhid.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		359328BC1B29B5B0009C80D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359328A01B29B5B0009C80D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359328A71B29B5B0009C80D0;
+			remoteInfo = SmartThermoMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3551A5481F3CE71700526916 /* customViewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customViewWindow.h; sourceTree = "<group>"; };
+		3551A5491F3CE71700526916 /* customViewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customViewWindow.m; sourceTree = "<group>"; };
+		3551A54A1F3CE71700526916 /* customViewWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customViewWindow.xib; sourceTree = "<group>"; };
+		359328A81B29B5B0009C80D0 /* SmartThermoMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartThermoMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		359328AC1B29B5B0009C80D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359328AD1B29B5B0009C80D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		359328AE1B29B5B0009C80D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		359328B01B29B5B0009C80D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		359328B21B29B5B0009C80D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		359328B51B29B5B0009C80D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		359328BB1B29B5B0009C80D0 /* SmartThermoMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartThermoMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		359328C01B29B5B0009C80D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359328C11B29B5B0009C80D0 /* SmartThermoMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartThermoMeterTests.m; sourceTree = "<group>"; };
+		359328CB1B29B5F4009C80D0 /* usbhid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbhid.h; sourceTree = "<group>"; };
+		359328CC1B29B60C009C80D0 /* usbhid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = usbhid.m; sourceTree = "<group>"; };
+		AA96E74C457F850373E2E964 /* libPods-SmartThermoMeter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartThermoMeter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B893A820A0B401C90ED6A730 /* Pods-SmartThermoMeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartThermoMeterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartThermoMeterTests/Pods-SmartThermoMeterTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0643B7209095C10ECE329B6 /* Pods-SmartThermoMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartThermoMeter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartThermoMeter/Pods-SmartThermoMeter.release.xcconfig"; sourceTree = "<group>"; };
+		E24C21AF0C743BCAE7E11D09 /* Pods-SmartThermoMeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartThermoMeterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartThermoMeterTests/Pods-SmartThermoMeterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F32CA18106737E82369FDA37 /* libPods-SmartThermoMeterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartThermoMeterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62ACC5C16CD8D3C9169B0A5 /* Pods-SmartThermoMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartThermoMeter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartThermoMeter/Pods-SmartThermoMeter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359328A51B29B5B0009C80D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BF3F6D4E3E8B3FF445B4AF /* libPods-SmartThermoMeter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359328B81B29B5B0009C80D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCE939E0BEE2891FE08146D /* libPods-SmartThermoMeterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040A422308426CD3B465B043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F62ACC5C16CD8D3C9169B0A5 /* Pods-SmartThermoMeter.debug.xcconfig */,
+				C0643B7209095C10ECE329B6 /* Pods-SmartThermoMeter.release.xcconfig */,
+				E24C21AF0C743BCAE7E11D09 /* Pods-SmartThermoMeterTests.debug.xcconfig */,
+				B893A820A0B401C90ED6A730 /* Pods-SmartThermoMeterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3593289F1B29B5B0009C80D0 = {
+			isa = PBXGroup;
+			children = (
+				359328AA1B29B5B0009C80D0 /* SmartThermoMeter */,
+				359328BE1B29B5B0009C80D0 /* SmartThermoMeterTests */,
+				359328A91B29B5B0009C80D0 /* Products */,
+				040A422308426CD3B465B043 /* Pods */,
+				D27752AF3B78988FCD399C6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		359328A91B29B5B0009C80D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359328A81B29B5B0009C80D0 /* SmartThermoMeter.app */,
+				359328BB1B29B5B0009C80D0 /* SmartThermoMeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359328AA1B29B5B0009C80D0 /* SmartThermoMeter */ = {
+			isa = PBXGroup;
+			children = (
+				359328AD1B29B5B0009C80D0 /* AppDelegate.h */,
+				359328AE1B29B5B0009C80D0 /* AppDelegate.m */,
+				359328B21B29B5B0009C80D0 /* Images.xcassets */,
+				359328B41B29B5B0009C80D0 /* MainMenu.xib */,
+				359328AB1B29B5B0009C80D0 /* Supporting Files */,
+				359328CB1B29B5F4009C80D0 /* usbhid.h */,
+				359328CC1B29B60C009C80D0 /* usbhid.m */,
+				3551A5481F3CE71700526916 /* customViewWindow.h */,
+				3551A5491F3CE71700526916 /* customViewWindow.m */,
+				3551A54A1F3CE71700526916 /* customViewWindow.xib */,
+			);
+			path = SmartThermoMeter;
+			sourceTree = "<group>";
+		};
+		359328AB1B29B5B0009C80D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				359328AC1B29B5B0009C80D0 /* Info.plist */,
+				359328B01B29B5B0009C80D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		359328BE1B29B5B0009C80D0 /* SmartThermoMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				359328C11B29B5B0009C80D0 /* SmartThermoMeterTests.m */,
+				359328BF1B29B5B0009C80D0 /* Supporting Files */,
+			);
+			path = SmartThermoMeterTests;
+			sourceTree = "<group>";
+		};
+		359328BF1B29B5B0009C80D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				359328C01B29B5B0009C80D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D27752AF3B78988FCD399C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA96E74C457F850373E2E964 /* libPods-SmartThermoMeter.a */,
+				F32CA18106737E82369FDA37 /* libPods-SmartThermoMeterTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359328A71B29B5B0009C80D0 /* SmartThermoMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359328C51B29B5B0009C80D0 /* Build configuration list for PBXNativeTarget "SmartThermoMeter" */;
+			buildPhases = (
+				5EB317E6148F98DA8D6D607D /* [CP] Check Pods Manifest.lock */,
+				359328A41B29B5B0009C80D0 /* Sources */,
+				359328A51B29B5B0009C80D0 /* Frameworks */,
+				359328A61B29B5B0009C80D0 /* Resources */,
+				B79E6FFD1A5ABCCF098FC50D /* [CP] Embed Pods Frameworks */,
+				D0006A341C750FB1DE3A8063 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartThermoMeter;
+			productName = SmartThermoMeter;
+			productReference = 359328A81B29B5B0009C80D0 /* SmartThermoMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		359328BA1B29B5B0009C80D0 /* SmartThermoMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359328C81B29B5B0009C80D0 /* Build configuration list for PBXNativeTarget "SmartThermoMeterTests" */;
+			buildPhases = (
+				73A2739C9A3E85E47D26133D /* [CP] Check Pods Manifest.lock */,
+				359328B71B29B5B0009C80D0 /* Sources */,
+				359328B81B29B5B0009C80D0 /* Frameworks */,
+				359328B91B29B5B0009C80D0 /* Resources */,
+				6CB35EBEB8BD0B669BCED950 /* [CP] Embed Pods Frameworks */,
+				B3D1DDB203781412CE185AAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359328BD1B29B5B0009C80D0 /* PBXTargetDependency */,
+			);
+			name = SmartThermoMeterTests;
+			productName = SmartThermoMeterTests;
+			productReference = 359328BB1B29B5B0009C80D0 /* SmartThermoMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		359328A01B29B5B0009C80D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Yuan;
+				TargetAttributes = {
+					359328A71B29B5B0009C80D0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					359328BA1B29B5B0009C80D0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 359328A71B29B5B0009C80D0;
+					};
+				};
+			};
+			buildConfigurationList = 359328A31B29B5B0009C80D0 /* Build configuration list for PBXProject "SmartThermoMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3593289F1B29B5B0009C80D0;
+			productRefGroup = 359328A91B29B5B0009C80D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359328A71B29B5B0009C80D0 /* SmartThermoMeter */,
+				359328BA1B29B5B0009C80D0 /* SmartThermoMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359328A61B29B5B0009C80D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359328B31B29B5B0009C80D0 /* Images.xcassets in Resources */,
+				359328B61B29B5B0009C80D0 /* MainMenu.xib in Resources */,
+				3551A54C1F3CE71700526916 /* customViewWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359328B91B29B5B0009C80D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EB317E6148F98DA8D6D607D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartThermoMeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CB35EBEB8BD0B669BCED950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartThermoMeterTests/Pods-SmartThermoMeterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A2739C9A3E85E47D26133D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartThermoMeterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D1DDB203781412CE185AAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartThermoMeterTests/Pods-SmartThermoMeterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79E6FFD1A5ABCCF098FC50D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartThermoMeter/Pods-SmartThermoMeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0006A341C750FB1DE3A8063 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartThermoMeter/Pods-SmartThermoMeter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		359328A41B29B5B0009C80D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359328CD1B29B60C009C80D0 /* usbhid.m in Sources */,
+				359328B11B29B5B0009C80D0 /* main.m in Sources */,
+				359328AF1B29B5B0009C80D0 /* AppDelegate.m in Sources */,
+				3551A54B1F3CE71700526916 /* customViewWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359328B71B29B5B0009C80D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359328C21B29B5B0009C80D0 /* SmartThermoMeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		359328BD1B29B5B0009C80D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359328A71B29B5B0009C80D0 /* SmartThermoMeter */;
+			targetProxy = 359328BC1B29B5B0009C80D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		359328B41B29B5B0009C80D0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359328B51B29B5B0009C80D0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		359328C31B29B5B0009C80D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		359328C41B29B5B0009C80D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		359328C61B29B5B0009C80D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62ACC5C16CD8D3C9169B0A5 /* Pods-SmartThermoMeter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SmartThermoMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		359328C71B29B5B0009C80D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0643B7209095C10ECE329B6 /* Pods-SmartThermoMeter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SmartThermoMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		359328C91B29B5B0009C80D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24C21AF0C743BCAE7E11D09 /* Pods-SmartThermoMeterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartThermoMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartThermoMeter.app/Contents/MacOS/SmartThermoMeter";
+			};
+			name = Debug;
+		};
+		359328CA1B29B5B0009C80D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B893A820A0B401C90ED6A730 /* Pods-SmartThermoMeterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartThermoMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartThermoMeter.app/Contents/MacOS/SmartThermoMeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		359328A31B29B5B0009C80D0 /* Build configuration list for PBXProject "SmartThermoMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359328C31B29B5B0009C80D0 /* Debug */,
+				359328C41B29B5B0009C80D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359328C51B29B5B0009C80D0 /* Build configuration list for PBXNativeTarget "SmartThermoMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359328C61B29B5B0009C80D0 /* Debug */,
+				359328C71B29B5B0009C80D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359328C81B29B5B0009C80D0 /* Build configuration list for PBXNativeTarget "SmartThermoMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359328C91B29B5B0009C80D0 /* Debug */,
+				359328CA1B29B5B0009C80D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 359328A01B29B5B0009C80D0 /* Project object */;
+}
