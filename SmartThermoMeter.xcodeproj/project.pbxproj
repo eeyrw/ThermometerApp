@@ -20,6 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		353ECC9F1F3D53980026CD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359328A01B29B5B0009C80D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353ECC8B1F3D53970026CD07;
+			remoteInfo = UsbHidLcm;
+		};
+		353ECCAA1F3D53980026CD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359328A01B29B5B0009C80D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353ECC8B1F3D53970026CD07;
+			remoteInfo = UsbHidLcm;
+		};
 		359328BC1B29B5B0009C80D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 359328A01B29B5B0009C80D0 /* Project object */;
@@ -30,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		353ECC8C1F3D53970026CD07 /* UsbHidLcm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsbHidLcm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353ECC9E1F3D53980026CD07 /* UsbHidLcmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsbHidLcmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353ECCA91F3D53980026CD07 /* UsbHidLcmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsbHidLcmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3551A5481F3CE71700526916 /* customViewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customViewWindow.h; sourceTree = "<group>"; };
 		3551A5491F3CE71700526916 /* customViewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customViewWindow.m; sourceTree = "<group>"; };
 		3551A54A1F3CE71700526916 /* customViewWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customViewWindow.xib; sourceTree = "<group>"; };
@@ -54,6 +71,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		353ECC891F3D53970026CD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECC9B1F3D53980026CD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCA61F3D53980026CD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		359328A51B29B5B0009C80D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,6 +138,9 @@
 			children = (
 				359328A81B29B5B0009C80D0 /* SmartThermoMeter.app */,
 				359328BB1B29B5B0009C80D0 /* SmartThermoMeterTests.xctest */,
+				353ECC8C1F3D53970026CD07 /* UsbHidLcm.app */,
+				353ECC9E1F3D53980026CD07 /* UsbHidLcmTests.xctest */,
+				353ECCA91F3D53980026CD07 /* UsbHidLcmUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +200,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		353ECC8B1F3D53970026CD07 /* UsbHidLcm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353ECCB61F3D53980026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcm" */;
+			buildPhases = (
+				353ECC881F3D53970026CD07 /* Sources */,
+				353ECC891F3D53970026CD07 /* Frameworks */,
+				353ECC8A1F3D53970026CD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsbHidLcm;
+			productName = UsbHidLcm;
+			productReference = 353ECC8C1F3D53970026CD07 /* UsbHidLcm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353ECC9D1F3D53980026CD07 /* UsbHidLcmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353ECCB71F3D53980026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmTests" */;
+			buildPhases = (
+				353ECC9A1F3D53980026CD07 /* Sources */,
+				353ECC9B1F3D53980026CD07 /* Frameworks */,
+				353ECC9C1F3D53980026CD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353ECCA01F3D53980026CD07 /* PBXTargetDependency */,
+			);
+			name = UsbHidLcmTests;
+			productName = UsbHidLcmTests;
+			productReference = 353ECC9E1F3D53980026CD07 /* UsbHidLcmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		353ECCA81F3D53980026CD07 /* UsbHidLcmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353ECCB81F3D53980026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmUITests" */;
+			buildPhases = (
+				353ECCA51F3D53980026CD07 /* Sources */,
+				353ECCA61F3D53980026CD07 /* Frameworks */,
+				353ECCA71F3D53980026CD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353ECCAB1F3D53980026CD07 /* PBXTargetDependency */,
+			);
+			name = UsbHidLcmUITests;
+			productName = UsbHidLcmUITests;
+			productReference = 353ECCA91F3D53980026CD07 /* UsbHidLcmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		359328A71B29B5B0009C80D0 /* SmartThermoMeter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 359328C51B29B5B0009C80D0 /* Build configuration list for PBXNativeTarget "SmartThermoMeter" */;
@@ -209,6 +303,20 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Yuan;
 				TargetAttributes = {
+					353ECC8B1F3D53970026CD07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					353ECC9D1F3D53980026CD07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 353ECC8B1F3D53970026CD07;
+					};
+					353ECCA81F3D53980026CD07 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 353ECC8B1F3D53970026CD07;
+					};
 					359328A71B29B5B0009C80D0 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -233,11 +341,35 @@
 			targets = (
 				359328A71B29B5B0009C80D0 /* SmartThermoMeter */,
 				359328BA1B29B5B0009C80D0 /* SmartThermoMeterTests */,
+				353ECC8B1F3D53970026CD07 /* UsbHidLcm */,
+				353ECC9D1F3D53980026CD07 /* UsbHidLcmTests */,
+				353ECCA81F3D53980026CD07 /* UsbHidLcmUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		353ECC8A1F3D53970026CD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECC9C1F3D53980026CD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCA71F3D53980026CD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		359328A61B29B5B0009C80D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +489,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		353ECC881F3D53970026CD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECC9A1F3D53980026CD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353ECCA51F3D53980026CD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		359328A41B29B5B0009C80D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,6 +532,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		353ECCA01F3D53980026CD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353ECC8B1F3D53970026CD07 /* UsbHidLcm */;
+			targetProxy = 353ECC9F1F3D53980026CD07 /* PBXContainerItemProxy */;
+		};
+		353ECCAB1F3D53980026CD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353ECC8B1F3D53970026CD07 /* UsbHidLcm */;
+			targetProxy = 353ECCAA1F3D53980026CD07 /* PBXContainerItemProxy */;
+		};
 		359328BD1B29B5B0009C80D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 359328A71B29B5B0009C80D0 /* SmartThermoMeter */;
@@ -398,6 +561,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		353ECCB01F3D53980026CD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		353ECCB11F3D53980026CD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		353ECCB21F3D53980026CD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsbHidLcm.app/Contents/MacOS/UsbHidLcm";
+			};
+			name = Debug;
+		};
+		353ECCB31F3D53980026CD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsbHidLcm.app/Contents/MacOS/UsbHidLcm";
+			};
+			name = Release;
+		};
+		353ECCB41F3D53980026CD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UsbHidLcm;
+			};
+			name = Debug;
+		};
+		353ECCB51F3D53980026CD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UsbHidLcmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = yuan.UsbHidLcmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UsbHidLcm;
+			};
+			name = Release;
+		};
 		359328C31B29B5B0009C80D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,6 +808,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		353ECCB61F3D53980026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353ECCB01F3D53980026CD07 /* Debug */,
+				353ECCB11F3D53980026CD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		353ECCB71F3D53980026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353ECCB21F3D53980026CD07 /* Debug */,
+				353ECCB31F3D53980026CD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		353ECCB81F3D53980026CD07 /* Build configuration list for PBXNativeTarget "UsbHidLcmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353ECCB41F3D53980026CD07 /* Debug */,
+				353ECCB51F3D53980026CD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		359328A31B29B5B0009C80D0 /* Build configuration list for PBXProject "SmartThermoMeter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

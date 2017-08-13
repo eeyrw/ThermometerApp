@@ -4,40 +4,41 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SmartThermoMeter.xcscheme</key>
+		<key>CCNStatusItem.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
-		<key>UsbHidLcm.xcscheme</key>
+		<key>Pods-SmartThermoMeter.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-SmartThermoMeterTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>353ECC8B1F3D53970026CD07</key>
+		<key>A128CBDD446F896C5ABD3F32322D4354</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>353ECC9D1F3D53980026CD07</key>
+		<key>C8F2C2B1A1EEF85FB271B85C9528F6C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>353ECCA81F3D53980026CD07</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>359328A71B29B5B0009C80D0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>359328BA1B29B5B0009C80D0</key>
+		<key>E72DC4E6455E5C98C8982DA9117987AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

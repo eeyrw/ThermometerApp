@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058310FE5B75060F3562F9D20EEC0378 /* CCNStatusItemWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06163A0B785C4F2666FFCE6FF45682AE /* CCNStatusItemWindowController.m */; };
+		121BCEAD966C040F9172EED211C70C54 /* CCNStatusItemWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F62722B358D263322926972933756402 /* CCNStatusItemWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B59FE92895645FE4809FD4F45DA34D /* Pods-SmartThermoMeterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4F55103CD3DC04D81B23A685A217A /* Pods-SmartThermoMeterTests-dummy.m */; };
+		4F5A224D1401FD1721F790CE4E8BC7A8 /* CCNStatusItemWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E97020198E8D9BCAC29AAC8E58AD9635 /* CCNStatusItemWindow.m */; };
+		50CEE2777BA898635459CC49640B5D35 /* CCNStatusItemDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B09293B998775016336FEBD4BF394C9 /* CCNStatusItemDropView.m */; };
+		60114FB0B459A74F0A95121612969707 /* Pods-SmartThermoMeter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AADAAFE1CA079C7E0BFFAD1FA970A789 /* Pods-SmartThermoMeter-dummy.m */; };
+		645DC2E86E12FA116BA07B745B034F44 /* CCNStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8724F02DFD68083115DEBC5B720107B /* CCNStatusItem.m */; };
+		7EAB0A29CD523EFAACCD558350892AC7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		8CD894EF34B81FFE551B757E1536AC96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		9353BE85BD0DB3057DFF5E20EF0C86E0 /* CCNStatusItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFD1B1B7339D2892DEC3397FE7647F8 /* CCNStatusItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC9C4F9C574BCC04A78CED9E0069761 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		AA9EDAC72583FB663AB0E0868824ACA0 /* CCNStatusItem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A90B5C9E54B6F96E31062EBD4C1959 /* CCNStatusItem-dummy.m */; };
+		B1F03EBF291AC15FD343600DF24F5FF3 /* CCNStatusItemWindowConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C7C0C1D7DD1F8470D092D13A772AA1 /* CCNStatusItemWindowConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC1A3D41B59FA81526802B59D72EFE7A /* CCNStatusItemWindowBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 979034DB410000B61B111DDD44B761F0 /* CCNStatusItemWindowBackgroundView.m */; };
+		D551B3CDDC2C7E5B5845C51DC04743F8 /* CCNStatusItemDropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F456487F09D439BA88372D71577A95 /* CCNStatusItemDropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0C332359CA0FA1948F1B718B9C26FC2 /* CCNStatusItemWindowBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9159CC45DF2A9F29137A4E012AF637C4 /* CCNStatusItemWindowBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F095B67E330CFC5241FEC8D21CD77233 /* CCNStatusItemWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 286B573787A16197DA71AB2E1383D03F /* CCNStatusItemWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F6361B32EB796DF2EDE4466382D262 /* CCNStatusItemWindowConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E98268B0A71A8D87AF1E24818544E92 /* CCNStatusItemWindowConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F36FB3A14F9988E2D9428F95F30C496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E72DC4E6455E5C98C8982DA9117987AF;
+			remoteInfo = CCNStatusItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036592771949C5C062CBF18E461E838C /* Pods-SmartThermoMeterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartThermoMeterTests-frameworks.sh"; sourceTree = "<group>"; };
+		06163A0B785C4F2666FFCE6FF45682AE /* CCNStatusItemWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowController.m; path = CCNStatusItem/CCNStatusItemWindowController.m; sourceTree = "<group>"; };
+		0FD4F55103CD3DC04D81B23A685A217A /* Pods-SmartThermoMeterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartThermoMeterTests-dummy.m"; sourceTree = "<group>"; };
+		176B25C4BDBA42DD4183812395AE8296 /* Pods-SmartThermoMeterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartThermoMeterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E0EB2055791EE0B3A345318C1CF7DC6 /* CCNStatusItem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCNStatusItem.xcconfig; sourceTree = "<group>"; };
+		225398C093BBDDE3FBA69A19304AB18B /* Pods-SmartThermoMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartThermoMeter.debug.xcconfig"; sourceTree = "<group>"; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		286B573787A16197DA71AB2E1383D03F /* CCNStatusItemWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowController.h; path = CCNStatusItem/CCNStatusItemWindowController.h; sourceTree = "<group>"; };
+		2B09293B998775016336FEBD4BF394C9 /* CCNStatusItemDropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemDropView.m; path = CCNStatusItem/CCNStatusItemDropView.m; sourceTree = "<group>"; };
+		30242B86CFB30E82DAD43EDD0216CDD9 /* CCNStatusItem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCNStatusItem-prefix.pch"; sourceTree = "<group>"; };
+		570A3DEFA66F5E498A62B77CC8402D64 /* Pods-SmartThermoMeterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartThermoMeterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E98268B0A71A8D87AF1E24818544E92 /* CCNStatusItemWindowConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowConfiguration.m; path = CCNStatusItem/CCNStatusItemWindowConfiguration.m; sourceTree = "<group>"; };
+		5EFD1B1B7339D2892DEC3397FE7647F8 /* CCNStatusItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItem.h; path = CCNStatusItem/CCNStatusItem.h; sourceTree = "<group>"; };
+		64F95D57FAD42A42B68D5281B40C7918 /* Pods-SmartThermoMeter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartThermoMeter-frameworks.sh"; sourceTree = "<group>"; };
+		68293527572FD36EC7681B1AB25C7BA8 /* Pods-SmartThermoMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartThermoMeter.release.xcconfig"; sourceTree = "<group>"; };
+		7CBC9BB033E17ABD1C434AA06E13F4DA /* Pods-SmartThermoMeter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartThermoMeter-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B7B95FBB7C5107E83128DEDF2527633 /* Pods-SmartThermoMeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartThermoMeterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9159CC45DF2A9F29137A4E012AF637C4 /* CCNStatusItemWindowBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowBackgroundView.h; path = CCNStatusItem/CCNStatusItemWindowBackgroundView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F456487F09D439BA88372D71577A95 /* CCNStatusItemDropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemDropView.h; path = CCNStatusItem/CCNStatusItemDropView.h; sourceTree = "<group>"; };
+		96C7C0C1D7DD1F8470D092D13A772AA1 /* CCNStatusItemWindowConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindowConfiguration.h; path = CCNStatusItem/CCNStatusItemWindowConfiguration.h; sourceTree = "<group>"; };
+		979034DB410000B61B111DDD44B761F0 /* CCNStatusItemWindowBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindowBackgroundView.m; path = CCNStatusItem/CCNStatusItemWindowBackgroundView.m; sourceTree = "<group>"; };
+		99E73D96EACF817AC82A2EEFD4B6050B /* libPods-SmartThermoMeter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SmartThermoMeter.a"; path = "libPods-SmartThermoMeter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38358E87CB9379EADCA88BE58901818 /* Pods-SmartThermoMeter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartThermoMeter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8724F02DFD68083115DEBC5B720107B /* CCNStatusItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItem.m; path = CCNStatusItem/CCNStatusItem.m; sourceTree = "<group>"; };
+		AADAAFE1CA079C7E0BFFAD1FA970A789 /* Pods-SmartThermoMeter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartThermoMeter-dummy.m"; sourceTree = "<group>"; };
+		ACBEB5EF0FEBA68FFD4A80C85729DE17 /* Pods-SmartThermoMeter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartThermoMeter-resources.sh"; sourceTree = "<group>"; };
+		BC3DA8DE1209454EF700BE72560DB714 /* libCCNStatusItem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCCNStatusItem.a; path = libCCNStatusItem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A90B5C9E54B6F96E31062EBD4C1959 /* CCNStatusItem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCNStatusItem-dummy.m"; sourceTree = "<group>"; };
+		CE6ED24DE3A044C2A95860F4D98F3060 /* Pods-SmartThermoMeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartThermoMeterTests.release.xcconfig"; sourceTree = "<group>"; };
+		D06CB7600E46466747B2CB79499312E5 /* libPods-SmartThermoMeterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SmartThermoMeterTests.a"; path = "libPods-SmartThermoMeterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D44D2D2BA11E28CE398312B39E8BD9 /* Pods-SmartThermoMeterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartThermoMeterTests-resources.sh"; sourceTree = "<group>"; };
+		E97020198E8D9BCAC29AAC8E58AD9635 /* CCNStatusItemWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCNStatusItemWindow.m; path = CCNStatusItem/CCNStatusItemWindow.m; sourceTree = "<group>"; };
+		F62722B358D263322926972933756402 /* CCNStatusItemWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCNStatusItemWindow.h; path = CCNStatusItem/CCNStatusItemWindow.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85AE59771F62D02444F87152FC20757E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC9C4F9C574BCC04A78CED9E0069761 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8761FC71821EA452F2FDBD3EA2A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAB0A29CD523EFAACCD558350892AC7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F715B56423E9B6D3567D572B9DFD8EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD894EF34B81FFE551B757E1536AC96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		0B2D203E85F925DC7683A58FB52AD214 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7586023566B7238D49F1F1B9BC9401D /* CCNStatusItem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C068A18C5413F804A2959126093416 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64E4C127B9E2FDDCCB200CB1716FCCBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E0EB2055791EE0B3A345318C1CF7DC6 /* CCNStatusItem.xcconfig */,
+				C5A90B5C9E54B6F96E31062EBD4C1959 /* CCNStatusItem-dummy.m */,
+				30242B86CFB30E82DAD43EDD0216CDD9 /* CCNStatusItem-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCNStatusItem";
+			sourceTree = "<group>";
+		};
+		7BF8B60238376758BC59E27243AE37EF /* Pods-SmartThermoMeter */ = {
+			isa = PBXGroup;
+			children = (
+				A38358E87CB9379EADCA88BE58901818 /* Pods-SmartThermoMeter-acknowledgements.markdown */,
+				7CBC9BB033E17ABD1C434AA06E13F4DA /* Pods-SmartThermoMeter-acknowledgements.plist */,
+				AADAAFE1CA079C7E0BFFAD1FA970A789 /* Pods-SmartThermoMeter-dummy.m */,
+				64F95D57FAD42A42B68D5281B40C7918 /* Pods-SmartThermoMeter-frameworks.sh */,
+				ACBEB5EF0FEBA68FFD4A80C85729DE17 /* Pods-SmartThermoMeter-resources.sh */,
+				225398C093BBDDE3FBA69A19304AB18B /* Pods-SmartThermoMeter.debug.xcconfig */,
+				68293527572FD36EC7681B1AB25C7BA8 /* Pods-SmartThermoMeter.release.xcconfig */,
+			);
+			name = "Pods-SmartThermoMeter";
+			path = "Target Support Files/Pods-SmartThermoMeter";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				0B2D203E85F925DC7683A58FB52AD214 /* Pods */,
+				F41BD2F4AE093AC264B4D2BA14BC2B8F /* Products */,
+				D4511E94E10F9299010A86169E207D92 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B54FF419B45D037460DAD322810977DA /* Pods-SmartThermoMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				176B25C4BDBA42DD4183812395AE8296 /* Pods-SmartThermoMeterTests-acknowledgements.markdown */,
+				570A3DEFA66F5E498A62B77CC8402D64 /* Pods-SmartThermoMeterTests-acknowledgements.plist */,
+				0FD4F55103CD3DC04D81B23A685A217A /* Pods-SmartThermoMeterTests-dummy.m */,
+				036592771949C5C062CBF18E461E838C /* Pods-SmartThermoMeterTests-frameworks.sh */,
+				D9D44D2D2BA11E28CE398312B39E8BD9 /* Pods-SmartThermoMeterTests-resources.sh */,
+				8B7B95FBB7C5107E83128DEDF2527633 /* Pods-SmartThermoMeterTests.debug.xcconfig */,
+				CE6ED24DE3A044C2A95860F4D98F3060 /* Pods-SmartThermoMeterTests.release.xcconfig */,
+			);
+			name = "Pods-SmartThermoMeterTests";
+			path = "Target Support Files/Pods-SmartThermoMeterTests";
+			sourceTree = "<group>";
+		};
+		B7586023566B7238D49F1F1B9BC9401D /* CCNStatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				5EFD1B1B7339D2892DEC3397FE7647F8 /* CCNStatusItem.h */,
+				A8724F02DFD68083115DEBC5B720107B /* CCNStatusItem.m */,
+				93F456487F09D439BA88372D71577A95 /* CCNStatusItemDropView.h */,
+				2B09293B998775016336FEBD4BF394C9 /* CCNStatusItemDropView.m */,
+				F62722B358D263322926972933756402 /* CCNStatusItemWindow.h */,
+				E97020198E8D9BCAC29AAC8E58AD9635 /* CCNStatusItemWindow.m */,
+				9159CC45DF2A9F29137A4E012AF637C4 /* CCNStatusItemWindowBackgroundView.h */,
+				979034DB410000B61B111DDD44B761F0 /* CCNStatusItemWindowBackgroundView.m */,
+				96C7C0C1D7DD1F8470D092D13A772AA1 /* CCNStatusItemWindowConfiguration.h */,
+				5E98268B0A71A8D87AF1E24818544E92 /* CCNStatusItemWindowConfiguration.m */,
+				286B573787A16197DA71AB2E1383D03F /* CCNStatusItemWindowController.h */,
+				06163A0B785C4F2666FFCE6FF45682AE /* CCNStatusItemWindowController.m */,
+				64E4C127B9E2FDDCCB200CB1716FCCBF /* Support Files */,
+			);
+			name = CCNStatusItem;
+			path = CCNStatusItem;
+			sourceTree = "<group>";
+		};
+		D4511E94E10F9299010A86169E207D92 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BF8B60238376758BC59E27243AE37EF /* Pods-SmartThermoMeter */,
+				B54FF419B45D037460DAD322810977DA /* Pods-SmartThermoMeterTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F41BD2F4AE093AC264B4D2BA14BC2B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3DA8DE1209454EF700BE72560DB714 /* libCCNStatusItem.a */,
+				99E73D96EACF817AC82A2EEFD4B6050B /* libPods-SmartThermoMeter.a */,
+				D06CB7600E46466747B2CB79499312E5 /* libPods-SmartThermoMeterTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3604C30FB7AEBFE05BDF9F6C4291A3CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9353BE85BD0DB3057DFF5E20EF0C86E0 /* CCNStatusItem.h in Headers */,
+				D551B3CDDC2C7E5B5845C51DC04743F8 /* CCNStatusItemDropView.h in Headers */,
+				121BCEAD966C040F9172EED211C70C54 /* CCNStatusItemWindow.h in Headers */,
+				E0C332359CA0FA1948F1B718B9C26FC2 /* CCNStatusItemWindowBackgroundView.h in Headers */,
+				B1F03EBF291AC15FD343600DF24F5FF3 /* CCNStatusItemWindowConfiguration.h in Headers */,
+				F095B67E330CFC5241FEC8D21CD77233 /* CCNStatusItemWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A128CBDD446F896C5ABD3F32322D4354 /* Pods-SmartThermoMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61052CF49C27C605E984381720814057 /* Build configuration list for PBXNativeTarget "Pods-SmartThermoMeter" */;
+			buildPhases = (
+				A272665381ED98A53F0B88997EF1DD34 /* Sources */,
+				85AE59771F62D02444F87152FC20757E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B91452EC537F9F62CA4947B79DB8CF50 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartThermoMeter";
+			productName = "Pods-SmartThermoMeter";
+			productReference = 99E73D96EACF817AC82A2EEFD4B6050B /* libPods-SmartThermoMeter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8F2C2B1A1EEF85FB271B85C9528F6C0 /* Pods-SmartThermoMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F0760E673F4AFA45EF79F973A7EE10 /* Build configuration list for PBXNativeTarget "Pods-SmartThermoMeterTests" */;
+			buildPhases = (
+				52EE2C6DD4F106FA08B06893F08B2302 /* Sources */,
+				CFE8761FC71821EA452F2FDBD3EA2A85 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartThermoMeterTests";
+			productName = "Pods-SmartThermoMeterTests";
+			productReference = D06CB7600E46466747B2CB79499312E5 /* libPods-SmartThermoMeterTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E72DC4E6455E5C98C8982DA9117987AF /* CCNStatusItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57031048232D9130A1EBBD08741E76D9 /* Build configuration list for PBXNativeTarget "CCNStatusItem" */;
+			buildPhases = (
+				B97D8C8D8D9A8657CFE40D9A1AA446C9 /* Sources */,
+				F715B56423E9B6D3567D572B9DFD8EF1 /* Frameworks */,
+				3604C30FB7AEBFE05BDF9F6C4291A3CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCNStatusItem;
+			productName = CCNStatusItem;
+			productReference = BC3DA8DE1209454EF700BE72560DB714 /* libCCNStatusItem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F41BD2F4AE093AC264B4D2BA14BC2B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E72DC4E6455E5C98C8982DA9117987AF /* CCNStatusItem */,
+				A128CBDD446F896C5ABD3F32322D4354 /* Pods-SmartThermoMeter */,
+				C8F2C2B1A1EEF85FB271B85C9528F6C0 /* Pods-SmartThermoMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EE2C6DD4F106FA08B06893F08B2302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B59FE92895645FE4809FD4F45DA34D /* Pods-SmartThermoMeterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272665381ED98A53F0B88997EF1DD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60114FB0B459A74F0A95121612969707 /* Pods-SmartThermoMeter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97D8C8D8D9A8657CFE40D9A1AA446C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9EDAC72583FB663AB0E0868824ACA0 /* CCNStatusItem-dummy.m in Sources */,
+				645DC2E86E12FA116BA07B745B034F44 /* CCNStatusItem.m in Sources */,
+				50CEE2777BA898635459CC49640B5D35 /* CCNStatusItemDropView.m in Sources */,
+				4F5A224D1401FD1721F790CE4E8BC7A8 /* CCNStatusItemWindow.m in Sources */,
+				BC1A3D41B59FA81526802B59D72EFE7A /* CCNStatusItemWindowBackgroundView.m in Sources */,
+				F7F6361B32EB796DF2EDE4466382D262 /* CCNStatusItemWindowConfiguration.m in Sources */,
+				058310FE5B75060F3562F9D20EEC0378 /* CCNStatusItemWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B91452EC537F9F62CA4947B79DB8CF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCNStatusItem;
+			target = E72DC4E6455E5C98C8982DA9117987AF /* CCNStatusItem */;
+			targetProxy = 5F36FB3A14F9988E2D9428F95F30C496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6546CC8C0B28F7A800A4740EBB2CEA8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7B95FBB7C5107E83128DEDF2527633 /* Pods-SmartThermoMeterTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		774D345C1316346D6149B25F10444935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		945EB9E2C47E9C30E16985278CFFC5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A2E8EC5F36BD6AEA27889FC3A43E2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6ED24DE3A044C2A95860F4D98F3060 /* Pods-SmartThermoMeterTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B5CDF802CD270971648E54E9749787B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225398C093BBDDE3FBA69A19304AB18B /* Pods-SmartThermoMeter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B9AC24262FCE4289588497177B03E06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0EB2055791EE0B3A345318C1CF7DC6 /* CCNStatusItem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCNStatusItem/CCNStatusItem-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		E1B303D11820814D1861EA6F9A353CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0EB2055791EE0B3A345318C1CF7DC6 /* CCNStatusItem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCNStatusItem/CCNStatusItem-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		E29F96DEE3E459EDE6CB2C2FAFBDC07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68293527572FD36EC7681B1AB25C7BA8 /* Pods-SmartThermoMeter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774D345C1316346D6149B25F10444935 /* Debug */,
+				945EB9E2C47E9C30E16985278CFFC5AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F0760E673F4AFA45EF79F973A7EE10 /* Build configuration list for PBXNativeTarget "Pods-SmartThermoMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6546CC8C0B28F7A800A4740EBB2CEA8F /* Debug */,
+				9A2E8EC5F36BD6AEA27889FC3A43E2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57031048232D9130A1EBBD08741E76D9 /* Build configuration list for PBXNativeTarget "CCNStatusItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B303D11820814D1861EA6F9A353CF0 /* Debug */,
+				B9AC24262FCE4289588497177B03E06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61052CF49C27C605E984381720814057 /* Build configuration list for PBXNativeTarget "Pods-SmartThermoMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CDF802CD270971648E54E9749787B1 /* Debug */,
+				E29F96DEE3E459EDE6CB2C2FAFBDC07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
